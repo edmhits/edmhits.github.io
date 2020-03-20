@@ -14,9 +14,39 @@
 
 	soundList.push(Track('UNO', 'Little Big', 'https://z1.fm/download/26443324'));
 	soundList.push(Track('Animals', 'Martin Garrix', 'https://z1.fm/download/2747183'));
-	soundList.push(Track('Faded', 'Alan Walker', 'https://s134sas.storage.yandex.net/get-mp3/1f93124c5fc3de989422be5150ff4990/0005a1443583eaa8/rmusic/U2FsdGVkX1_A-ZR9KERKm612JNEs2fBGTqjcV3_nLH9v_7s7f6B95Wf66HLdTaIH6KS51ltl6PPTD-gbfJ8SW7LNE3YAB8rKt2rLzFZDAOM/de658f40354d99e6f01fc8d84622e0bb5eb8c93c0934a6fba5fd8cb1fb67c4c5?track-id=25995209&play=false'));
-	soundList.push(Track('Alone', 'Marshmello', 'https://s100vla.storage.yandex.net/get-mp3/83fc3e122c4fb84cfa4a54ca792aa5ea/0005a1443372745a/rmusic/U2FsdGVkX18_nZKac_xZgyJxFCsOrmzi9SvSAbeCHefDajQ789Er2xMC2MGfBfMdlwRWOg8EBm4Ft395nBvZPn59aM6z7M3-ArlXGnIBr_g/7ef8f71e2d74b6a3317c3985ad42869c71d7fa3e48ad88b700c23450aecdd02c?track-id=28885150&play=false'));
-	soundList.push(Track('Summer Days', 'Martin Garrix', 'https://s137vla.storage.yandex.net/get-mp3/1ffa53bd18e60d0f5a8e3794f3adc54a/0005a14430cf33fd/rmusic/U2FsdGVkX18q9c_RsycjU2xxxCibzl1-l_FJrrqY080Ss3CX7yR08O0wAWsm0k4oauevUKd8YrkFiqC5acy4XApK2svUIJjYdpIYjt6zi-M/470302899d0c38279716dcb2dad49a1d6961a5117cb66307e8987ca80f2e584c?track-id=52396212&play=false'));
+	soundList.push(Track('Jump', 'Ray Nr', 'https://z1.fm/download/15840670'));
+	soundList.push(Track('Does It Matter', 'Janieck', 'https://z1.fm/download/16666073'));
+	soundList.push(Track('Reality', 'Lost Frequencies Feat. Janieck Devy', 'https://z1.fm/download/3168236'));
+	soundList.push(Track('Narcotic', 'Younotus & Janieck & Senex', 'https://z1.fm/download/24445990'));
+	soundList.push(Track('Madison', 'Alle Farben Feat. Janieck', 'https://z1.fm/download/24445990'));
+	soundList.push(Track('Feel The Love', 'Janieck', 'https://z1.fm/download/8917469'));
+	soundList.push(Track('The World Is Mine', 'Devid Getta', 'https://z1.fm/download/3158295'));
+	soundList.push(Track('Love Do not Let Me Go', 'Devid Getta', 'https://z1.fm/download/3696914'));
+	soundList.push(Track('Boom Boom', 'Devid Getta', 'https://z1.fm/download/3756206'));
+	soundList.push(Track('Sexy Beatch', 'Akon Devid Getta', 'https://z1.fm/download/3791505'));
+	soundList.push(Track('Titanium', 'Devid Getta Feat Sia', 'https://z1.fm/download/3791505'));
+	soundList.push(Track('Stole The Show', 'Kygo Feat. Parson James', 'https://z1.fm/download/3735259'));
+	soundList.push(Track('Born To Be Yours', 'Kygo & Imagine Dragons', 'https://z1.fm/download/21653628'));
+	soundList.push(Track('Happy Now', 'Kygo', 'https://z1.fm/download/22138331'));
+	soundList.push(Track('Surviving', 'Avicii & Kygo Style', 'https://z1.fm/download/22138331'));
+	soundList.push(Track('Stargazing', 'Kygo Feat Justin Jesso', 'https://z1.fm/download/17642086'));
+	soundList.push(Track('Summer Days', 'Martin Garrix Feat. Macklemore & Patrick Stump Of Fall Out Boy', 'https://z1.fm/download/24053782'));
+	soundList.push(Track('Home', 'Martin Garrix, Bonn', 'https://z1.fm/download/24693329'));
+	soundList.push(Track('Hold On', 'Martin Garrix X Matisse & Sadko Feat. Michel Zitron', 'https://z1.fm/download/26133235'));
+	soundList.push(Track('Forever', 'Martin Garrix & Matisse & Sadko', 'https://z1.fm/download/21941303'));
+	soundList.push(Track('', '', 'https://z1.fm'));
+	soundList.push(Track('', '', 'https://z1.fm'));
+	soundList.push(Track('', '', 'https://z1.fm'));
+	soundList.push(Track('', '', 'https://z1.fm'));
+	soundList.push(Track('', '', 'https://z1.fm'));
+	soundList.push(Track('', '', 'https://z1.fm'));
+	soundList.push(Track('', '', 'https://z1.fm'));
+	soundList.push(Track('', '', 'https://z1.fm'));
+	soundList.push(Track('', '', 'https://z1.fm'));
+	soundList.push(Track('', '', 'https://z1.fm'));
+	soundList.push(Track('', '', 'https://z1.fm'));
+	soundList.push(Track('', '', 'https://z1.fm'));
+	soundList.push(Track('', '', 'https://z1.fm'));
 
 
 	// Заходишь на яндекс.музыка, F12, Network, Media и запускаешь песни. Справа в списке появляется ссылка. Copy -> copy adress

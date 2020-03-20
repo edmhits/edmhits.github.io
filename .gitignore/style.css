@@ -1,0 +1,101 @@
+html, body {
+	margin: 0;
+	background-image:url(M.jpg);
+	background-size:100%;
+}
+
+#header {
+	background-color: white;
+	border-radius: 5px;
+	padding: 3px;
+
+	display: grid;
+	grid-column: 2;
+	grid-row: 2;
+	grid-template-columns: 180px 1fr;
+
+	width: 90%;
+	height: 180px;
+
+	margin: 20px 5% 0 5%;
+}
+
+#header-image  {
+	background-image: url('edm.jpg');
+	background-size: 160px 160px;
+	background-repeat: no-repeat;
+
+	margin: 10px;
+
+	display: inline-block;
+	width: 160px;
+	height: 160px;
+	border-radius: 12px;
+
+	vertical-align: top;
+}
+
+#header-text {
+	padding: 3px;
+	display: inline-block;
+}
+
+#controls {
+	background-color: white;
+	width: 532px;
+	height: 120px;
+	border-radius: 5px;
+	margin-top: 5%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#controls .button {
+	margin:10px 15px 10px 15px;
+	padding: 0px;
+	border:0px;
+	cursor: pointer;
+
+	transition: 0.2s opacity;
+}
+
+#controls .button:hover {
+	opacity: 0.7;
+}
+
+
+#track-info {
+	background-color: white;
+	width: 532px;
+	height: 100%;
+	border-radius: 5px;
+	margin-top: 5%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+
+	color: #05315f;
+	font-weight: bold;
+	font-size: 35px;
+	font-family: 'Maiandra GD', fantasy;
+}
+
+#track-info .focus {
+	color: #184d84;
+	margin: 0px;
+	font-size: 50px;
+	display: inline;
+	margin-left: 15px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+	background-color: rgba(255, 255, 255, 128);
+
+	text-align: center;
+	font-family: 'Times New Roman', serif;
+}

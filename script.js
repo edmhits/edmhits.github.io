@@ -34,19 +34,19 @@
 	soundList.push(Track('Home', 'Martin Garrix, Bonn', 'https://z1.fm/download/24693329'));
 	soundList.push(Track('Hold On', 'Martin Garrix X Matisse & Sadko Feat. Michel Zitron', 'https://z1.fm/download/26133235'));
 	soundList.push(Track('Forever', 'Martin Garrix & Matisse & Sadko', 'https://z1.fm/download/21941303'));
-	soundList.push(Track('', '', 'https://z1.fm'));
-	soundList.push(Track('', '', 'https://z1.fm'));
-	soundList.push(Track('', '', 'https://z1.fm'));
-	soundList.push(Track('', '', 'https://z1.fm'));
-	soundList.push(Track('', '', 'https://z1.fm'));
-	soundList.push(Track('', '', 'https://z1.fm'));
-	soundList.push(Track('', '', 'https://z1.fm'));
-	soundList.push(Track('', '', 'https://z1.fm'));
-	soundList.push(Track('', '', 'https://z1.fm'));
-	soundList.push(Track('', '', 'https://z1.fm'));
-	soundList.push(Track('', '', 'https://z1.fm'));
-	soundList.push(Track('', '', 'https://z1.fm'));
-	soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
+	// soundList.push(Track('', '', 'https://z1.fm'));
 
 
 	// Заходишь на яндекс.музыка, F12, Network, Media и запускаешь песни. Справа в списке появляется ссылка. Copy -> copy adress

@@ -17,18 +17,15 @@
 	soundList.push(Track('Jump', 'Ray Nr', 'https://z1.fm/download/15840670'));
 	soundList.push(Track('Does It Matter', 'Janieck', 'https://z1.fm/download/16666073'));
 	soundList.push(Track('Reality', 'Lost Frequencies Feat. Janieck Devy', 'https://z1.fm/download/3168236'));
-	soundList.push(Track('Narcotic', 'Younotus & Janieck & Senex', 'https://z1.fm/download/24445990'));
 	soundList.push(Track('Madison', 'Alle Farben Feat. Janieck', 'https://z1.fm/download/24445990'));
 	soundList.push(Track('Feel The Love', 'Janieck', 'https://z1.fm/download/8917469'));
-	soundList.push(Track('The World Is Mine', 'Devid Getta', 'https://z1.fm/download/3158295'));
-	soundList.push(Track('Love Do not Let Me Go', 'Devid Getta', 'https://z1.fm/download/3696914'));
-	soundList.push(Track('Boom Boom', 'Devid Getta', 'https://z1.fm/download/3756206'));
-	soundList.push(Track('Sexy Beatch', 'Akon Devid Getta', 'https://z1.fm/download/3791505'));
-	soundList.push(Track('Titanium', 'Devid Getta Feat Sia', 'https://z1.fm/download/3791505'));
+	soundList.push(Track('The World Is Mine', 'David Guetta', 'https://z1.fm/download/3158295'));
+	soundList.push(Track('Love Do not Let Me Go', 'David Guetta', 'https://z1.fm/download/3696914'));
+	soundList.push(Track('Boom Boom', 'David Guetta', 'https://z1.fm/download/3756206'));
+	soundList.push(Track('Sexy Beatch', 'Akon David Guetta', 'https://z1.fm/download/3791505'));
 	soundList.push(Track('Stole The Show', 'Kygo Feat. Parson James', 'https://z1.fm/download/3735259'));
 	soundList.push(Track('Born To Be Yours', 'Kygo & Imagine Dragons', 'https://z1.fm/download/21653628'));
 	soundList.push(Track('Happy Now', 'Kygo', 'https://z1.fm/download/22138331'));
-	soundList.push(Track('Surviving', 'Avicii & Kygo Style', 'https://z1.fm/download/22138331'));
 	soundList.push(Track('Stargazing', 'Kygo Feat Justin Jesso', 'https://z1.fm/download/17642086'));
 	soundList.push(Track('Summer Days', 'Martin Garrix Feat. Macklemore & Patrick Stump Of Fall Out Boy', 'https://z1.fm/download/24053782'));
 	soundList.push(Track('Home', 'Martin Garrix, Bonn', 'https://z1.fm/download/24693329'));
@@ -53,7 +50,16 @@
 	// soundList.push(Track('название', 'исполнитель', 'ссылка'))
 
 	let audio = new Audio();
-	audio.src = soundList[track_id].url;
+
+	try {
+		audio.src = soundList[track_id].url;
+	}
+	catch(e)
+	{
+		audio.src = soundList[0].url;
+	}
+
+
 	audio.currentTime = parseInt(localStorage['track_time']) || 0;
 
 
@@ -61,10 +67,14 @@
 	document.getElementById('t_author').innerText = soundList[track_id].author;
 
 	let pl = () => {
+		document.getElementById('bod').style.backgroundImage ="url(es.gif)";
+
 		document.getElementById('button-play').src = "pause.png";
 		audio.play();
 	}
 	let st = () => {
+		document.getElementById('bod').style.backgroundImage ="url(esa.png)";
+
 		document.getElementById('button-play').src = "play.png";
 		audio.pause();
 	}

@@ -1,7 +1,17 @@
 html, body {
 	margin: 0;
-	background-image:url(M.jpg);
-	background-size:100%;
+
+	
+	}
+#bod{
+	position: absolute;
+	background-image:url(esa.png) ;
+	background-size:  100% ;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	visibility:visible;
+	background-repeat: no-repeat;
 }
 
 #header {
@@ -17,7 +27,7 @@ html, body {
 	width: 90%;
 	height: 180px;
 
-	margin: 20px 5% 0 5%;
+	margin: 0px 5% 0 5%;
 }
 
 #header-image  {
